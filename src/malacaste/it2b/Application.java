@@ -21,7 +21,7 @@ class Application {
         return age < 65; 
     }
 
-    @Override
+   
     public String toString() {
         String eligibilityStatus = isEligible() ? "Eligible" : "Not Eligible (Age too high)";
         return String.format("ID: %d\nName: %s\nAge: %d\nBMI: %.1f\nFitness Goals: %s\nEligibility Status: %s",

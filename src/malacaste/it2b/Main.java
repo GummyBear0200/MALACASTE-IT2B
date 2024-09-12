@@ -3,7 +3,7 @@ package malacaste.it2b;
 
 import java.util.Scanner;
 
-public class FitnessApplication {
+public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
